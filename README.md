@@ -14,3 +14,6 @@
 ## Планы по доработке проекта  
 Планируется улучшение проекта после ревью.  
 
+## Посмотреть страницу:  
+
+https://antoninadyachencko.github.io/russian-travel/index.html
