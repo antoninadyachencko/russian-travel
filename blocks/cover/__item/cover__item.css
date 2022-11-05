@@ -1,54 +1,53 @@
 .cover__item {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 740px;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 20px;
-    background-image: url(../../../sprint-3-images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 740px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 20px;
+  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
 }
 
 .cover__item::before {
-    content: "";
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.5s ease;
+  content: "";
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s ease;
 }
 
 .cover__item:hover::before {
-    opacity: 0.8;
-  }
+  opacity: 0.8;
+}
 
-  @media screen and (max-width: 1124px) {
-    .cover__item {
-      width: 100%;
-      min-height: 640px;
+@media screen and (max-width: 1124px) {
+  .cover__item {
+    width: 100%;
+    min-height: 640px;
   }
-  }
-  @media screen and (max-width: 984px) {
-    .cover__item {
-      width: 100%;
-      min-height: 480px;
-  }
-  }
-  @media screen and (max-width: 568px) {
-    .cover__item {
-      width: 100%;
-      min-height: 200px;
-  }
-  }
+}
 
+@media screen and (max-width: 984px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .cover__item {
+    min-height: 200px;
+  }
+}

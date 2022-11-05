@@ -1,11 +1,11 @@
 .lead__container {
-    box-sizing: border-box;
-    margin: 0 auto;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
-  
+
 @media screen and (max-width: 568px) {
-    .lead__container{
-      width: 100%;
-    }
+  .lead__container {
+    width: 100%;
   }
+}
